@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+dist/
+*.xcuserstate
+DerivedData/
+.freerdp-source/
+.freerdp-build/
+backups/
+*.log
+.env
+.env.*
+!.env.example

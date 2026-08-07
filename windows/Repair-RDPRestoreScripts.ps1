@@ -63,4 +63,3 @@ foreach ($backup in Get-ChildItem -LiteralPath $root -Recurse -File -Filter 'pow
 }
 
 Write-Host "SUCCESS: repaired $repaired rollback script(s) under $root" -ForegroundColor Green
-

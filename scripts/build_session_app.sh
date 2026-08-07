@@ -34,4 +34,3 @@ contents="$bundle/Contents"
 /usr/bin/ditto "$bundle" "$destination_bundle"
 /usr/bin/codesign --verify --deep --strict --verbose=2 "$destination_bundle"
 print "$destination_bundle"
-
